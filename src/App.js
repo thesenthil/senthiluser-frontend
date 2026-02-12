@@ -2,7 +2,10 @@
 import "./App.css";
 
 export default function App() {
-  const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:5000";
+   const API_BASE =
+  process.env.REACT_APP_API_BASE ||
+  "http://senthil-user3-app-env.eba-6dxntpxw.eu-north-1.elasticbeanstalk.com";
+
 const API_URL = `${API_BASE}/api/users`;
 
 
